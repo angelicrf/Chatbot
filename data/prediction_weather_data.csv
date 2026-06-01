@@ -1,0 +1,11 @@
+timestamp,city,prompt,predicted_condition,predicted_temp_c,predicted_humidity_pct,predicted_precip_mm
+2026-05-31T08:00:00Z,New York,What will the weather be like in New York tomorrow morning?,Cloudy,16.5,78,0.5
+2026-05-31T10:00:00Z,London,Is it going to rain in London this evening?,Rain,12.0,85,2.3
+2026-05-31T12:00:00Z,Tokyo,"Forecast for Tokyo on Saturday, please.",Sunny,24.0,60,0.0
+2026-05-31T14:00:00Z,Dubai,How hot will it be in Dubai next week?,Sunny,38.0,25,0.0
+2026-05-31T16:00:00Z,Moscow,Will it snow in Moscow tonight?,Snow,0.0,92,4.8
+2026-05-31T18:00:00Z,Sydney,Show me the humidity and wind in Sydney now.,Partly Cloudy,20.0,70,0.0
+2026-05-31T20:00:00Z,Miami,Any thunderstorms expected in Miami this afternoon?,Thunderstorm,30.0,88,12.5
+2026-05-31T22:00:00Z,San Francisco,Will there be fog in San Francisco tomorrow?,Fog,15.5,93,0.0
+2026-06-01T00:00:00Z,Berlin,What is the temperature forecast for Berlin on Sunday?,Rain,11.0,80,3.1
+2026-06-01T02:00:00Z,Paris,Is the weekend going to be cold in Paris?,Cloudy,13.0,72,0.2

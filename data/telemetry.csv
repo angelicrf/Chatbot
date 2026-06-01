@@ -1,0 +1,13 @@
+timestamp,location,temperature_c,humidity_pct,pressure_hpa,wind_kph,condition,precipitation_mm
+2026-05-31T06:00:00Z,New York,18.2,72,1015,12,Partly Cloudy,0.0
+2026-05-31T09:00:00Z,New York,20.1,68,1013,14,Sunny,0.0
+2026-05-31T12:00:00Z,New York,24.5,60,1010,18,Sunny,0.0
+2026-05-31T15:00:00Z,New York,22.8,65,1012,10,Cloudy,0.0
+2026-05-31T06:00:00Z,London,14.0,81,1018,8,Light Rain,1.2
+2026-05-31T09:00:00Z,London,15.3,78,1016,10,Cloudy,0.0
+2026-05-31T12:00:00Z,London,17.5,75,1014,12,Partly Cloudy,0.0
+2026-05-31T15:00:00Z,London,16.1,79,1016,11,Light Rain,0.8
+2026-05-31T06:00:00Z,Tokyo,19.8,68,1012,9,Morning Fog,0.0
+2026-05-31T09:00:00Z,Tokyo,22.3,64,1011,11,Sunny,0.0
+2026-05-31T12:00:00Z,Tokyo,26.7,58,1009,15,Sunny,0.0
+2026-05-31T15:00:00Z,Tokyo,25.4,62,1010,13,Partly Cloudy,0.0

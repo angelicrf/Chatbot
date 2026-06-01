@@ -6,7 +6,26 @@ class QwenChatbot:
         self.model = AutoModelForCausalLM.from_pretrained(model_name)
         self.history = []
 
+    def is_weather_prompt(self, user_input: str) -> bool:
+        weather_keywords = [
+            "weather", "temperature", "forecast", "rain", "snow", "sunny",
+            "cloudy", "wind", "windy", "humidity", "storm", "precipitation",
+            "thunder", "lightning", "drizzle", "sleet", "blizzard", "heat",
+            "cold", "wind chill", "uv index", "climate", "conditions"
+        ]
+        normalized = user_input.lower()
+        return any(keyword in normalized for keyword in weather_keywords)
+
     def generate_response(self, user_input):
+        if not self.is_weather_prompt(user_input):
+            response = (
+                "I can only answer weather-related questions. "
+                "Please ask about weather conditions, forecasts, temperature, wind, humidity, or precipitation."
+            )
+            self.history.append({"role": "user", "content": user_input})
+            self.history.append({"role": "assistant", "content": response})
+            return response
+
         messages = self.history + [{"role": "user", "content": user_input}]
 
         text = self.tokenizer.apply_chat_template(

@@ -9,3 +9,9 @@ timestamp,city,prompt,predicted_condition,predicted_temp_c,predicted_humidity_pc
 2026-05-31T22:00:00Z,San Francisco,Will there be fog in San Francisco tomorrow?,Fog,15.5,93,0.0
 2026-06-01T00:00:00Z,Berlin,What is the temperature forecast for Berlin on Sunday?,Rain,11.0,80,3.1
 2026-06-01T02:00:00Z,Paris,Is the weekend going to be cold in Paris?,Cloudy,13.0,72,0.2
+2026-06-01T05:14:20.458749Z,Quebec Canada,the weather in Quebec Canada?,Patchy rain nearby,11.9,75,1.59
+2026-06-01T05:30:12.879638Z,Paris,Is it cold in Paris tomorrow morning?,Sunny,19.4,58,0.0
+2026-06-01T05:31:43.576553Z,Quebec,what is the weather in Quebec?,Patchy rain nearby,11.9,75,1.59
+2026-06-01T05:32:50.416600Z,Zambia,what is the weather in Zambia?,Sunny,18.0,49,0.0
+2026-06-01T05:33:47.790993Z,seattle,the weather in seattle?,Sunny,12.7,60,0.0
+2026-06-01T05:36:27.417473Z,Austria,what is the weather in Austria?,Moderate rain,16.9,85,7.92
